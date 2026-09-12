@@ -1,0 +1,315 @@
+reading_id,station_id,model_name,predicted_label,confidence_score,response_time_ms,timestamp,validation_errors
+7,ST-99,,drop,-0.738,-31.1,,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+18,ST-02,demand_forecaster,-1,1.577,,2026-09-09 22:04:02.546,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+81,ST-08,unknown_model,normal,1.039,,2026-09-09 22:04:04.288,invalid model_name | invalid confidence_score | invalid response_time_ms
+210,ST-03,unknown_model,leak,1.497,,2026-09-09 22:04:07.711,invalid model_name | invalid confidence_score | invalid response_time_ms
+281,ST-06,demand_forecaster,invalid_label,-0.028,,2026-09-09 22:04:09.597,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+283,ST-10,demand_forecaster,drop,,,2026-09-09 22:04:09.648,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+327,ST-08,unknown_model,,-0.854,,2026-09-09 22:04:10.829,invalid model_name | invalid confidence_score | invalid response_time_ms
+-938,ST-99,pressure_drop_predictor,-1,,,2026-09-09 22:04:11.213,invalid reading_id | invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+383,ST-08,leak_detector,99999,1.111,,2026-09-09 22:04:12.343,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+407,ST-07,unknown_model,stable,,-58.4,2026-09-09 22:04:12.961,invalid model_name | invalid confidence_score | invalid response_time_ms
+-615,ST-05,pressure_drop_predictor,leak,1.418,,2026-09-09 22:04:14.310,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,ST-99,unknown_model,drop,,,2026-09-09 22:04:14.465,invalid reading_id | invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+463,ST-02,,,-0.217,,,invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+-997,ST-99,demand_forecaster,invalid_label,,,2026-09-09 22:04:15.355,invalid reading_id | invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+518,ST-03,demand_forecaster,,,-64.7,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+567,ST-01,demand_forecaster,stable,,-76.7,2026-09-09 22:04:17.361,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+626,unknown,leak_detector,invalid_label,,,2026-09-09 22:04:18.910,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+663,ST-03,,99999,-0.924,,2026-09-09 22:04:19.929,invalid model_name | invalid confidence_score | invalid response_time_ms
+734,ST-07,demand_forecaster,99999,1.903,,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+,ST-07,unknown_model,normal,-0.692,,2026-09-09 22:04:23.161,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+813,,,invalid_label,1.873,-97.5,,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+-412,unknown,pressure_drop_predictor,,1.196,,2026-09-09 22:04:24.856,invalid reading_id | invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+891,ST-08,leak_detector,leak,1.851,-76.6,2026-09-09 22:04:26.049,invalid confidence_score | invalid response_time_ms
+-857,ST-09,,-1,-0.892,,,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+920,ST-04,demand_forecaster,99999,-0.839,,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+1129,ST-10,demand_forecaster,-1,-0.525,-28.8,2026-09-09 22:04:32.430,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+1218,ST-06,pressure_drop_predictor,normal,1.826,-60.0,2026-09-09 22:04:34.780,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,ST-08,leak_detector,stable,1.489,,2026-09-09 22:04:35.140,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-338,,unknown_model,normal,-0.923,-59.6,2026-09-09 22:04:37.005,invalid reading_id | invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+1361,ST-07,leak_detector,drop,1.72,,2026-09-09 22:04:38.651,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,ST-05,,drop,,-92.2,2026-09-09 22:04:39.505,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+,unknown,leak_detector,-1,,-49.4,,invalid reading_id | invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+1432,ST-10,pressure_drop_predictor,stable,1.299,-67.8,2026-09-09 22:04:40.581,invalid confidence_score | invalid response_time_ms
+1439,ST-08,unknown_model,normal,1.136,-31.9,2026-09-09 22:04:40.764,invalid model_name | invalid confidence_score | invalid response_time_ms
+,ST-08,demand_forecaster,invalid_label,1.801,,2026-09-09 22:04:41.099,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+1467,ST-99,pressure_drop_predictor,99999,1.796,,2026-09-09 22:04:41.521,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+1552,ST-06,leak_detector,-1,,-32.2,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+-803,ST-06,unknown_model,99999,,-23.2,2026-09-09 22:04:44.113,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+-860,ST-06,demand_forecaster,invalid_label,-0.113,,2026-09-09 22:04:45.095,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-281,ST-99,leak_detector,drop,,,2026-09-09 22:04:45.352,invalid reading_id | invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+1652,ST-99,leak_detector,99999,1.895,-66.0,2026-09-09 22:04:46.524,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+1718,ST-06,,drop,1.338,,,invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+1719,ST-99,pressure_drop_predictor,drop,-0.867,,2026-09-09 22:04:48.288,invalid station_id | invalid confidence_score | invalid response_time_ms
+1864,,pressure_drop_predictor,invalid_label,1.208,,2026-09-09 22:04:52.135,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+2028,unknown,unknown_model,normal,1.723,,,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+2063,ST-08,,,-0.228,,2026-09-09 22:04:57.399,invalid model_name | invalid confidence_score | invalid response_time_ms
+2179,ST-01,leak_detector,leak,-0.619,,2026-09-09 22:05:00.513,invalid confidence_score | invalid response_time_ms
+2201,ST-02,leak_detector,stable,1.943,,2026-09-09 22:05:01.085,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+2245,ST-01,,99999,1.786,,,invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+2312,ST-06,unknown_model,99999,,,2026-09-09 22:05:04.034,invalid model_name | invalid confidence_score | invalid response_time_ms
+2319,unknown,demand_forecaster,leak,-0.296,,2026-09-09 22:05:04.216,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+2410,ST-04,,invalid_label,,-4.7,,invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+2465,,pressure_drop_predictor,,-0.264,-76.4,2026-09-09 22:05:08.033,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+2482,unknown,unknown_model,,1.543,,2026-09-09 22:05:08.509,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+2517,unknown,,99999,-0.522,,2026-09-09 22:05:09.416,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+-86,ST-06,leak_detector,invalid_label,-0.638,-25.8,2026-09-09 22:05:09.467,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,ST-99,unknown_model,invalid_label,,-22.8,2026-09-09 22:05:10.711,invalid reading_id | invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+,ST-08,unknown_model,,1.047,,2026-09-09 22:05:10.947,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+2578,ST-99,,invalid_label,-0.572,-76.4,2026-09-09 22:05:11.085,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+2592,ST-99,leak_detector,,1.881,,2026-09-09 22:05:11.494,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-543,ST-09,leak_detector,,,-23.1,2026-09-09 22:05:12.654,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+2765,,leak_detector,normal,-0.818,-43.1,2026-09-09 22:05:16.040,invalid station_id | invalid confidence_score | invalid response_time_ms
+2789,ST-05,,,1.054,,2026-09-09 22:05:16.662,invalid model_name | invalid confidence_score | invalid response_time_ms
+-41,,leak_detector,invalid_label,,,2026-09-09 22:05:17.891,invalid reading_id | invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-87,ST-10,leak_detector,,,-30.9,2026-09-09 22:05:19.263,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+2889,ST-07,,normal,1.252,,2026-09-09 22:05:19.341,invalid model_name | invalid confidence_score | invalid response_time_ms
+2895,ST-06,leak_detector,invalid_label,1.293,-75.0,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+2940,ST-10,,normal,1.107,,,invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+2984,ST-10,leak_detector,-1,1.226,,2026-09-09 22:05:21.830,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+2990,ST-06,,drop,-0.394,,2026-09-09 22:05:21.986,invalid model_name | invalid confidence_score | invalid response_time_ms
+-849,ST-01,demand_forecaster,-1,1.915,,2026-09-09 22:05:24.908,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+3103,ST-04,pressure_drop_predictor,99999,,,2026-09-09 22:05:24.986,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,unknown,leak_detector,normal,1.269,,,invalid reading_id | invalid station_id | invalid confidence_score | invalid response_time_ms | invalid timestamp
+-360,ST-09,leak_detector,normal,1.267,,2026-09-09 22:05:29.187,invalid reading_id | invalid confidence_score | invalid response_time_ms
+3296,ST-03,demand_forecaster,leak,,-87.5,2026-09-09 22:05:30.115,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+3358,ST-10,leak_detector,-1,1.776,-81.7,2026-09-09 22:05:31.762,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-21,ST-08,demand_forecaster,normal,-0.425,,2026-09-09 22:05:33.366,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+3481,ST-10,leak_detector,99999,-0.362,-74.9,2026-09-09 22:05:35.002,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+3594,ST-04,demand_forecaster,leak,1.525,,2026-09-09 22:05:37.969,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,ST-01,pressure_drop_predictor,99999,,-80.2,2026-09-09 22:05:38.571,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,ST-06,unknown_model,stable,1.3,-40.1,2026-09-09 22:05:38.831,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+3734,ST-01,,leak,1.412,-37.2,2026-09-09 22:05:41.689,invalid model_name | invalid confidence_score | invalid response_time_ms
+3806,unknown,leak_detector,normal,1.156,,,invalid station_id | invalid confidence_score | invalid response_time_ms | invalid timestamp
+-450,,unknown_model,normal,-0.317,,2026-09-09 22:05:43.743,invalid reading_id | invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+3824,ST-09,pressure_drop_predictor,drop,1.144,-52.7,2026-09-09 22:05:44.079,invalid confidence_score | invalid response_time_ms
+,,leak_detector,99999,,,,invalid reading_id | invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+3832,ST-05,pressure_drop_predictor,drop,,-89.4,2026-09-09 22:05:44.310,invalid confidence_score | invalid response_time_ms
+,ST-08,leak_detector,,,,,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+3888,ST-04,unknown_model,normal,1.649,-74.3,2026-09-09 22:05:45.815,invalid model_name | invalid confidence_score | invalid response_time_ms
+3908,ST-03,pressure_drop_predictor,99999,,,2026-09-09 22:05:46.333,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+3977,ST-01,leak_detector,drop,,-90.0,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+3978,ST-99,,,1.847,,2026-09-09 22:05:48.143,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+4186,ST-02,,drop,1.313,-65.1,2026-09-09 22:05:53.590,invalid model_name | invalid confidence_score | invalid response_time_ms
+4415,,pressure_drop_predictor,invalid_label,,-24.4,,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+,ST-03,pressure_drop_predictor,normal,1.42,,,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+4551,ST-02,,,-0.96,,2026-09-09 22:06:03.231,invalid model_name | invalid confidence_score | invalid response_time_ms
+4627,ST-03,pressure_drop_predictor,normal,-0.894,,2026-09-09 22:06:05.236,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+4646,ST-01,leak_detector,stable,-0.754,-34.3,2026-09-09 22:06:05.729,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,ST-08,demand_forecaster,99999,-0.945,-88.0,2026-09-09 22:06:08.392,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+4832,ST-06,leak_detector,,,-87.0,2026-09-09 22:06:10.589,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+4836,ST-03,unknown_model,,1.03,,2026-09-09 22:06:10.694,invalid model_name | invalid confidence_score | invalid response_time_ms
+-344,,,stable,1.089,,2026-09-09 22:06:11.485,invalid reading_id | invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+4940,unknown,demand_forecaster,,1.439,,,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+5040,ST-08,demand_forecaster,stable,,,2026-09-09 22:06:16.090,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+5190,ST-05,demand_forecaster,-1,-0.077,,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+5243,ST-05,leak_detector,normal,1.456,-8.0,2026-09-09 22:06:21.439,invalid confidence_score | invalid response_time_ms
+5262,unknown,leak_detector,-1,-0.53,-43.3,,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+-801,ST-04,leak_detector,drop,-0.858,,2026-09-09 22:06:24.037,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,ST-09,leak_detector,drop,-0.546,,2026-09-09 22:06:26.060,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+5454,ST-99,unknown_model,invalid_label,,,,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+5487,ST-03,leak_detector,leak,,-22.4,2026-09-09 22:06:27.875,invalid confidence_score | invalid response_time_ms
+-300,,pressure_drop_predictor,-1,,-70.9,2026-09-09 22:06:28.251,invalid reading_id | invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+5546,,unknown_model,invalid_label,,,2026-09-09 22:06:29.465,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+5588,ST-06,demand_forecaster,stable,-0.198,,2026-09-09 22:06:30.554,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+5607,ST-04,,-1,-0.434,,2026-09-09 22:06:31.089,invalid model_name | invalid confidence_score | invalid response_time_ms
+5617,ST-99,demand_forecaster,99999,1.379,,2026-09-09 22:06:31.347,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+5631,ST-03,,stable,1.013,-12.6,2026-09-09 22:06:31.710,invalid model_name | invalid confidence_score | invalid response_time_ms
+5646,ST-04,,leak,,-67.2,2026-09-09 22:06:32.098,invalid model_name | invalid confidence_score | invalid response_time_ms
+5732,ST-02,unknown_model,drop,,-45.4,2026-09-09 22:06:34.369,invalid model_name | invalid confidence_score | invalid response_time_ms
+5796,,,stable,,-10.5,2026-09-09 22:06:36.034,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+5810,ST-08,leak_detector,stable,,-73.4,2026-09-09 22:06:36.399,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,ST-99,unknown_model,leak,-0.685,,2026-09-09 22:06:36.879,invalid reading_id | invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+5862,ST-06,unknown_model,normal,,-99.3,,invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+5988,,pressure_drop_predictor,invalid_label,-0.357,,2026-09-09 22:06:41.105,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,ST-02,demand_forecaster,invalid_label,-0.285,,2026-09-09 22:06:41.236,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+6035,ST-05,unknown_model,drop,-0.546,-70.1,,invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+6157,ST-01,leak_detector,leak,,-30.7,2026-09-09 22:06:45.561,invalid confidence_score | invalid response_time_ms
+6215,ST-07,demand_forecaster,stable,,,2026-09-09 22:06:47.066,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+6238,ST-02,leak_detector,-1,-0.664,,2026-09-09 22:06:47.662,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-130,ST-05,leak_detector,99999,1.083,-42.5,2026-09-09 22:06:55.033,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+6629,ST-02,pressure_drop_predictor,,-0.195,-12.2,2026-09-09 22:06:57.907,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-13,ST-06,demand_forecaster,stable,1.883,,2026-09-09 22:07:01.586,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+6817,,leak_detector,stable,,-23.7,2026-09-09 22:07:02.824,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+6917,ST-06,unknown_model,invalid_label,1.342,-63.2,2026-09-09 22:07:05.422,invalid model_name | invalid confidence_score | invalid response_time_ms
+-850,ST-03,,99999,-0.639,,,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+-103,ST-06,demand_forecaster,99999,,-22.9,2026-09-09 22:07:07.227,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,ST-04,unknown_model,-1,,,2026-09-09 22:07:07.514,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+7020,,,stable,1.642,-86.0,,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+-751,ST-07,,stable,1.153,-30.2,2026-09-09 22:07:08.290,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+7125,ST-02,unknown_model,,1.034,,2026-09-09 22:07:10.932,invalid model_name | invalid confidence_score | invalid response_time_ms
+7164,ST-05,,invalid_label,1.57,,2026-09-09 22:07:11.984,invalid model_name | invalid confidence_score | invalid response_time_ms
+7246,ST-99,pressure_drop_predictor,stable,,-59.7,,invalid station_id | invalid confidence_score | invalid response_time_ms | invalid timestamp
+7247,ST-03,pressure_drop_predictor,normal,1.554,-43.1,2026-09-09 22:07:14.137,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+7300,ST-02,demand_forecaster,stable,,,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+,ST-06,unknown_model,normal,-0.756,-24.4,2026-09-09 22:07:17.207,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+,ST-08,pressure_drop_predictor,stable,-0.715,-88.0,2026-09-09 22:07:18.645,invalid reading_id | invalid confidence_score | invalid response_time_ms
+-882,ST-04,,normal,1.28,,2026-09-09 22:07:20.036,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+,ST-07,leak_detector,normal,-0.889,,,invalid reading_id | invalid confidence_score | invalid response_time_ms | invalid timestamp
+7577,ST-07,demand_forecaster,normal,-0.06,,2026-09-09 22:07:22.830,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-947,ST-10,pressure_drop_predictor,,1.24,,2026-09-09 22:07:24.323,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+7709,ST-01,pressure_drop_predictor,leak,1.762,-57.2,2026-09-09 22:07:26.320,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+7744,ST-06,leak_detector,normal,,-29.3,2026-09-09 22:07:27.223,invalid confidence_score | invalid response_time_ms
+7791,ST-03,pressure_drop_predictor,invalid_label,1.54,,2026-09-09 22:07:28.454,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+7808,,unknown_model,-1,1.148,-89.7,2026-09-09 22:07:28.894,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+,ST-03,,invalid_label,,,2026-09-09 22:07:29.967,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+8164,ST-04,pressure_drop_predictor,drop,1.802,,2026-09-09 22:07:38.249,invalid confidence_score | invalid response_time_ms
+-587,ST-04,,-1,1.389,,2026-09-09 22:07:38.275,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+8320,ST-04,,99999,,-67.2,2026-09-09 22:07:42.358,invalid model_name | invalid confidence_score | invalid response_time_ms
+-966,,leak_detector,drop,-0.702,,2026-09-09 22:07:43.448,invalid reading_id | invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,,demand_forecaster,-1,-0.542,-92.1,,invalid reading_id | invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+8505,ST-01,unknown_model,drop,,,2026-09-09 22:07:47.268,invalid model_name | invalid confidence_score | invalid response_time_ms
+8517,ST-10,demand_forecaster,drop,1.354,-47.0,2026-09-09 22:07:47.580,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+8664,ST-07,pressure_drop_predictor,drop,1.197,-1.3,2026-09-09 22:07:51.428,invalid confidence_score | invalid response_time_ms
+8669,ST-10,demand_forecaster,invalid_label,,-38.3,2026-09-09 22:07:51.560,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+8750,ST-02,,-1,-0.934,-51.6,2026-09-09 22:07:53.657,invalid model_name | invalid confidence_score | invalid response_time_ms
+8760,ST-04,demand_forecaster,stable,,-13.7,2026-09-09 22:07:53.916,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+8805,unknown,leak_detector,,,,2026-09-09 22:07:55.083,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+8812,ST-03,pressure_drop_predictor,stable,-0.484,-59.1,2026-09-09 22:07:55.266,invalid confidence_score | invalid response_time_ms
+-175,unknown,unknown_model,-1,,-98.5,2026-09-09 22:07:55.940,invalid reading_id | invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+,ST-02,,,-0.679,-27.0,,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+8910,ST-10,demand_forecaster,-1,,-50.3,2026-09-09 22:07:57.881,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-532,ST-03,unknown_model,leak,1.035,-24.0,2026-09-09 22:07:59.146,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+,ST-10,leak_detector,-1,1.067,-87.9,2026-09-09 22:08:01.796,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+9148,ST-02,leak_detector,stable,,-77.9,2026-09-09 22:08:04.148,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+9161,ST-02,demand_forecaster,drop,,-82.0,2026-09-09 22:08:04.487,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+9304,ST-09,leak_detector,drop,1.721,-23.0,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+-391,,leak_detector,invalid_label,,,2026-09-09 22:08:09.742,invalid reading_id | invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+9367,ST-10,,invalid_label,,-45.5,2026-09-09 22:08:09.898,invalid model_name | invalid confidence_score | invalid response_time_ms
+-789,ST-02,,leak,,-68.1,2026-09-09 22:08:10.386,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+9389,ST-99,leak_detector,,1.636,,2026-09-09 22:08:10.490,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+9418,ST-04,leak_detector,99999,1.321,-64.3,2026-09-09 22:08:11.243,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,ST-02,demand_forecaster,normal,1.131,-81.8,,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+9510,ST-03,unknown_model,invalid_label,,-44.1,2026-09-09 22:08:13.653,invalid model_name | invalid confidence_score | invalid response_time_ms
+9521,unknown,pressure_drop_predictor,drop,-0.84,-45.1,,invalid station_id | invalid confidence_score | invalid response_time_ms | invalid timestamp
+9701,ST-07,demand_forecaster,drop,1.096,-26.0,2026-09-09 22:08:18.643,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+9731,ST-01,leak_detector,stable,-0.152,-21.1,2026-09-09 22:08:19.419,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+9818,unknown,leak_detector,99999,,-91.8,2026-09-09 22:08:21.728,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-204,ST-08,pressure_drop_predictor,normal,-0.678,,2026-09-09 22:08:21.805,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+9888,ST-10,pressure_drop_predictor,leak,1.965,,2026-09-09 22:08:23.583,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-387,ST-08,unknown_model,invalid_label,,-2.0,2026-09-09 22:08:25.372,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+9979,ST-06,pressure_drop_predictor,stable,,,2026-09-09 22:08:25.994,invalid confidence_score | invalid response_time_ms
+-311,ST-06,pressure_drop_predictor,,,-25.4,2026-09-09 22:08:26.923,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-78,ST-02,leak_detector,invalid_label,1.069,-82.4,2026-09-09 22:08:28.756,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,ST-04,unknown_model,-1,1.381,,2026-09-09 22:08:28.781,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+10087,ST-06,leak_detector,99999,1.301,,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+10130,ST-06,,,-0.896,,2026-09-09 22:08:29.978,invalid model_name | invalid confidence_score | invalid response_time_ms
+-503,ST-10,pressure_drop_predictor,drop,,,,invalid reading_id | invalid confidence_score | invalid response_time_ms | invalid timestamp
+10364,ST-08,pressure_drop_predictor,,,-88.6,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+10397,ST-07,pressure_drop_predictor,leak,1.245,-26.3,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+10469,unknown,pressure_drop_predictor,normal,-0.162,,2026-09-09 22:08:38.858,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+10509,ST-09,demand_forecaster,normal,-0.833,-38.1,2026-09-09 22:08:39.903,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,ST-05,pressure_drop_predictor,normal,-0.973,,2026-09-09 22:08:40.836,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+10596,ST-99,leak_detector,invalid_label,,-4.7,2026-09-09 22:08:42.205,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+10764,ST-04,demand_forecaster,leak,,-15.8,2026-09-09 22:08:46.588,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-570,ST-05,leak_detector,-1,1.659,,2026-09-09 22:08:49.118,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,ST-09,leak_detector,,-0.961,,2026-09-09 22:08:50.438,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,ST-10,demand_forecaster,-1,1.887,-22.7,2026-09-09 22:08:54.700,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+11072,ST-01,leak_detector,leak,,,2026-09-09 22:08:54.751,invalid confidence_score | invalid response_time_ms
+11171,ST-09,unknown_model,invalid_label,-0.874,-62.4,,invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+11217,ST-08,unknown_model,invalid_label,-0.736,,2026-09-09 22:08:58.520,invalid model_name | invalid confidence_score | invalid response_time_ms
+11250,ST-10,unknown_model,drop,,,2026-09-09 22:08:59.419,invalid model_name | invalid confidence_score | invalid response_time_ms
+,ST-05,unknown_model,99999,-0.878,-59.5,,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+11346,ST-07,leak_detector,invalid_label,,,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+11389,ST-05,leak_detector,99999,1.431,-59.8,2026-09-09 22:09:03.061,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-61,ST-04,demand_forecaster,,-0.379,-5.3,2026-09-09 22:09:07.328,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-996,ST-07,,invalid_label,1.46,-7.0,2026-09-09 22:09:07.950,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+-60,ST-10,pressure_drop_predictor,invalid_label,1.792,-38.1,2026-09-09 22:09:08.364,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,ST-05,leak_detector,normal,,-19.1,2026-09-09 22:09:10.732,invalid reading_id | invalid confidence_score | invalid response_time_ms
+11689,ST-10,demand_forecaster,stable,,,2026-09-09 22:09:11.017,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-856,ST-10,leak_detector,leak,1.608,,2026-09-09 22:09:14.466,invalid reading_id | invalid confidence_score | invalid response_time_ms
+,ST-08,,99999,1.987,,2026-09-09 22:09:15.405,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+11860,,unknown_model,leak,1.254,,2026-09-09 22:09:15.535,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+-806,ST-09,unknown_model,99999,1.942,,2026-09-09 22:09:16.315,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+11893,ST-07,pressure_drop_predictor,drop,,,2026-09-09 22:09:16.419,invalid confidence_score | invalid response_time_ms
+11909,ST-05,demand_forecaster,stable,1.968,-68.8,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+12023,,leak_detector,-1,1.166,,2026-09-09 22:09:19.822,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+12026,ST-09,demand_forecaster,drop,-0.572,,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+,ST-08,leak_detector,normal,-0.275,-22.1,2026-09-09 22:09:20.030,invalid reading_id | invalid confidence_score | invalid response_time_ms
+12084,ST-02,pressure_drop_predictor,stable,-0.52,,2026-09-09 22:09:21.456,invalid confidence_score | invalid response_time_ms
+12111,ST-02,,-1,1.136,-72.1,2026-09-09 22:09:22.156,invalid model_name | invalid confidence_score | invalid response_time_ms
+,ST-06,unknown_model,normal,,-79.7,2026-09-09 22:09:24.935,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+12219,ST-07,,normal,1.507,-74.4,,invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+12283,unknown,demand_forecaster,,1.939,,2026-09-09 22:09:26.686,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+12304,unknown,unknown_model,-1,1.769,,2026-09-09 22:09:27.237,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+12305,ST-10,leak_detector,drop,1.508,-35.1,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+-824,ST-09,leak_detector,leak,,,2026-09-09 22:09:28.320,invalid reading_id | invalid confidence_score | invalid response_time_ms
+12432,ST-01,,drop,1.833,-33.2,2026-09-09 22:09:30.569,invalid model_name | invalid confidence_score | invalid response_time_ms
+12489,unknown,unknown_model,99999,-0.693,-76.1,2026-09-09 22:09:32.047,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+12538,ST-02,leak_detector,drop,-0.254,-93.5,2026-09-09 22:09:33.347,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+12598,ST-09,,stable,,-40.9,2026-09-09 22:09:34.902,invalid model_name | invalid confidence_score | invalid response_time_ms
+12638,unknown,,invalid_label,1.643,-35.5,2026-09-09 22:09:35.932,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+-935,ST-03,pressure_drop_predictor,normal,,,,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+12717,ST-99,leak_detector,drop,-0.766,,2026-09-09 22:09:38.055,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+12720,ST-04,,drop,,,2026-09-09 22:09:38.132,invalid model_name | invalid confidence_score | invalid response_time_ms
+12864,ST-05,leak_detector,leak,-0.644,,2026-09-09 22:09:41.858,invalid confidence_score | invalid response_time_ms
+12866,ST-04,leak_detector,-1,,-11.4,2026-09-09 22:09:41.910,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-668,ST-08,demand_forecaster,stable,1.217,-78.2,,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+13026,ST-09,leak_detector,drop,-0.677,,2026-09-09 22:09:46.111,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+13039,ST-10,pressure_drop_predictor,invalid_label,1.621,-57.5,2026-09-09 22:09:46.447,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+13057,ST-09,pressure_drop_predictor,leak,,-54.4,2026-09-09 22:09:46.913,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-983,ST-10,,normal,,,2026-09-09 22:09:47.042,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+13066,,pressure_drop_predictor,stable,,-38.5,2026-09-09 22:09:47.173,invalid station_id | invalid confidence_score | invalid response_time_ms
+-150,ST-01,unknown_model,normal,-0.063,,2026-09-09 22:09:47.873,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+-583,ST-09,demand_forecaster,leak,,,2026-09-09 22:09:48.183,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+13154,,unknown_model,99999,-0.972,-48.9,2026-09-09 22:09:49.559,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+13212,ST-08,pressure_drop_predictor,99999,-0.931,-75.1,2026-09-09 22:09:51.066,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+13257,,unknown_model,99999,1.821,,2026-09-09 22:09:52.231,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+13330,ST-01,,drop,-0.75,,2026-09-09 22:09:54.119,invalid model_name | invalid confidence_score | invalid response_time_ms
+13377,ST-03,,invalid_label,,-72.0,2026-09-09 22:09:55.374,invalid model_name | invalid confidence_score | invalid response_time_ms
+13393,ST-03,leak_detector,drop,-0.923,-75.3,2026-09-09 22:09:55.786,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+13396,ST-04,,99999,,,2026-09-09 22:09:55.862,invalid model_name | invalid confidence_score | invalid response_time_ms
+13690,ST-02,demand_forecaster,,,,2026-09-09 22:10:03.507,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+13716,ST-09,unknown_model,invalid_label,,-23.4,2026-09-09 22:10:04.179,invalid model_name | invalid confidence_score | invalid response_time_ms
+-669,ST-08,unknown_model,-1,-0.064,,,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+-958,,demand_forecaster,99999,-0.158,-26.4,2026-09-09 22:10:06.697,invalid reading_id | invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,ST-07,,drop,-0.788,,2026-09-09 22:10:08.512,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+-499,ST-09,demand_forecaster,normal,-0.632,-7.1,,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+13930,ST-01,pressure_drop_predictor,leak,,-43.6,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+13995,ST-05,pressure_drop_predictor,normal,,-30.3,2026-09-09 22:10:11.578,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-909,ST-10,unknown_model,,,,2026-09-09 22:10:12.329,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+14047,ST-02,pressure_drop_predictor,drop,-0.355,-71.8,2026-09-09 22:10:12.952,invalid confidence_score | invalid response_time_ms
+,ST-07,leak_detector,99999,1.609,-54.4,2026-09-09 22:10:15.647,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+14190,ST-09,demand_forecaster,invalid_label,1.419,,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+14191,ST-10,demand_forecaster,invalid_label,,,2026-09-09 22:10:16.706,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+14315,ST-03,,,-0.195,,2026-09-09 22:10:19.972,invalid model_name | invalid confidence_score | invalid response_time_ms
+-482,ST-09,leak_detector,leak,-0.177,-24.5,2026-09-09 22:10:20.489,invalid reading_id | invalid confidence_score | invalid response_time_ms
+14388,ST-05,leak_detector,stable,1.151,-19.8,2026-09-09 22:10:21.888,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+14411,ST-05,pressure_drop_predictor,-1,1.795,,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+14428,ST-08,leak_detector,99999,1.093,,2026-09-09 22:10:22.968,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+14463,ST-03,leak_detector,stable,1.956,-97.6,2026-09-09 22:10:23.876,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+14465,ST-99,unknown_model,drop,,-51.1,2026-09-09 22:10:23.927,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+,ST-01,pressure_drop_predictor,invalid_label,,-15.3,2026-09-09 22:10:24.338,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-334,unknown,,-1,1.608,-22.1,2026-09-09 22:10:25.832,invalid reading_id | invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+,ST-09,,stable,,,,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+-754,ST-08,pressure_drop_predictor,invalid_label,,-87.8,2026-09-09 22:10:28.385,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+,ST-05,unknown_model,drop,1.94,-42.9,2026-09-09 22:10:28.560,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+14665,ST-07,pressure_drop_predictor,,1.59,,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+14772,ST-99,demand_forecaster,stable,1.128,-44.9,2026-09-09 22:10:32.092,invalid station_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+14790,ST-06,,invalid_label,,,2026-09-09 22:10:32.558,invalid model_name | invalid confidence_score | invalid response_time_ms
+14867,ST-09,leak_detector,leak,,-95.5,2026-09-09 22:10:34.596,invalid confidence_score | invalid response_time_ms
+,ST-03,demand_forecaster,invalid_label,1.248,,2026-09-09 22:10:34.975,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+15008,ST-99,,-1,1.725,,2026-09-09 22:10:38.363,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+15035,ST-02,leak_detector,,-0.895,,2026-09-09 22:10:39.063,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+15048,ST-07,pressure_drop_predictor,-1,1.955,-75.1,2026-09-09 22:10:39.400,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+15118,ST-02,leak_detector,drop,1.125,,2026-09-09 22:10:41.221,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+15178,ST-07,demand_forecaster,,1.721,-26.7,2026-09-09 22:10:42.776,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+-996,ST-06,,-1,-0.923,,,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+15243,ST-07,,stable,-0.351,,2026-09-09 22:10:44.529,invalid model_name | invalid confidence_score | invalid response_time_ms
+15313,unknown,,drop,1.815,-9.2,2026-09-09 22:10:46.340,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+15394,ST-04,leak_detector,99999,1.217,,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+,ST-10,leak_detector,,-0.351,,2026-09-09 22:10:52.314,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+15543,ST-05,demand_forecaster,invalid_label,1.207,,,invalid predicted_label | invalid confidence_score | invalid response_time_ms | invalid timestamp
+15587,ST-05,pressure_drop_predictor,invalid_label,-0.266,,2026-09-09 22:10:53.506,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+15624,ST-05,leak_detector,leak,1.54,-35.6,2026-09-09 22:10:54.466,invalid confidence_score | invalid response_time_ms
+15668,ST-08,pressure_drop_predictor,normal,,,2026-09-09 22:10:55.604,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+15675,ST-05,unknown_model,stable,1.681,,2026-09-09 22:10:55.785,invalid model_name | invalid confidence_score | invalid response_time_ms
+-288,ST-05,leak_detector,stable,-0.257,,2026-09-09 22:10:56.126,invalid reading_id | invalid predicted_label | invalid confidence_score | invalid response_time_ms
+15697,ST-04,unknown_model,,,,2026-09-09 22:10:56.385,invalid model_name | invalid confidence_score | invalid response_time_ms
+15807,,unknown_model,drop,,,2026-09-09 22:10:59.228,invalid station_id | invalid model_name | invalid confidence_score | invalid response_time_ms
+,ST-10,,,,-30.2,,invalid reading_id | invalid model_name | invalid confidence_score | invalid response_time_ms | invalid timestamp
+15906,ST-10,leak_detector,,-0.943,-63.2,2026-09-09 22:11:01.855,invalid predicted_label | invalid confidence_score | invalid response_time_ms
+15955,,pressure_drop_predictor,drop,-0.123,,,invalid station_id | invalid confidence_score | invalid response_time_ms | invalid timestamp
+15990,ST-03,leak_detector,leak,,,2026-09-09 22:11:04.033,invalid confidence_score | invalid response_time_ms
+16052,ST-07,leak_detector,,-0.271,-26.4,2026-09-09 22:11:05.642,invalid predicted_label | invalid confidence_score | invalid response_time_ms

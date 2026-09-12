@@ -1,0 +1,4 @@
+timestamp,model_name,drift_type,baseline,window_average,deviation_percent,consecutive_windows,message
+2026-09-09 22:06:01,leak_detector,confidence,0.858,0.6887,19.73,3,Confidence drift detected
+2026-09-09 22:06:51,demand_forecaster,latency,82.5533,105.125,27.34,3,Latency drift detected
+2026-09-09 22:11:00,leak_detector,confidence,0.858,0.7063,17.69,3,Confidence drift detected
